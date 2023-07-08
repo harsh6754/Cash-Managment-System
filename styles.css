@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --primary-color: rgb(181, 52, 113);
+  --bg-color: rgb(255 184 184 / 20%);
+  --white-color: rgb(255, 255, 255);
+}
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: var(--bg-color);
+}
+#app {
+  margin: 15px auto;
+  padding: 20px;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: var(--primary-color);
+  letter-spacing: 2px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0px;
+}
+.return {
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  margin: 10px 0px;
+}
+.sub-head {
+  font-size: 20px;
+  margin: 7px 0px;
+}
+.input-fields {
+  margin: 12px 0px;
+  padding: 5px;
+  border: 3px solid var(--primary-color);
+  border-radius: 8px;
+  width: 300px;
+  height: 30px;
+  font-size: 1.1rem;
+}
+input[type="number"]:focus {
+  outline: none !important;
+}
+.btn {
+  margin: 10px 0px;
+  padding: 12px 5px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+table,
+td {
+  border: 2.5px solid var(--primary-color);
+}
+td {
+  width: 80px;
+  padding: 5px;
+}
+table {
+  background-color: var(--white-color);
+  margin: 10px 0px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 1.1rem;
+}
+.cash-area,
+.check-button,
+.result-area {
+  display: none;
+}
